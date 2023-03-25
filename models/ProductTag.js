@@ -13,13 +13,9 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    part_number: {
-      type: DataTypes.UUID,
-      defaultValue: UUIDV4,
-    },
-    is_instock: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true,
+    tag_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     product_id: {
       type: DataTypes.INTEGER,

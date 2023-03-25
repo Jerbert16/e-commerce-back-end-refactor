@@ -16,12 +16,16 @@ Product.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    part: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    manufacturer: {
-      type: DataTypes.STRING,
+    price: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    stock: {
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
     category_id: {
