@@ -28,9 +28,9 @@ router.get("/:id", async (req, res) => {
   try {
     const singleTag = await Tag.findOne({
       where: {
-        id: req.params.id
+        id: req.params.id,
       },
-      attributes: ["id","tag_name"],
+      attributes: ["id", "tag_name"],
       include: [
         {
           model: Product,

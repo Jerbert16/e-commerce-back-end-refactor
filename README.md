@@ -35,3 +35,4 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Application In Action 
+[Video Walkthrough](https://youtu.be/0O1IoEaN3pI)
